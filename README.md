@@ -41,7 +41,7 @@ Develop a Python-based automated tool that:
 
 ## 🧩 Folder Structure
 
-Your repository follows this structure:
+The repository follows this structure:
 
 ```
 📂 ProjectRoot
