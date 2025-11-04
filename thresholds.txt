@@ -1,0 +1,47 @@
+# Variant: C1AHSEVO_12i_R24_Regression_Tests_globalTestReport
+clip_threshold_investigate = 3
+clip_threshold_nok = 8
+segment_threshold_investigate = 3
+segment_threshold_nok = 8
+
+# Variant: C1AREG_10i_Regression_Tests_globalTestReport
+clip_threshold_investigate = 3
+clip_threshold_nok = 8
+segment_threshold_investigate = 3
+segment_threshold_nok = 8
+
+# Variant: C1AHSEVO_AMDC_Partners_Regression_Tests_globalTestReport
+clip_threshold_investigate = 3
+clip_threshold_nok = 8
+segment_threshold_investigate = 3
+segment_threshold_nok = 8
+
+# Variant: C1AHSEVO_AMDC_Regression_Tests_globalTestReport
+clip_threshold_investigate = 3
+clip_threshold_nok = 8
+segment_threshold_investigate = 3
+segment_threshold_nok = 8
+
+# Variant: C1AHSEVO_AMDC_Regression_Tests_globalTestReportLegacy
+clip_threshold_investigate = 3
+clip_threshold_nok = 8
+segment_threshold_investigate = 3
+segment_threshold_nok = 8
+
+# Variant: sample
+clip_threshold_investigate = 3
+clip_threshold_nok = 8
+segment_threshold_investigate = 3
+segment_threshold_nok = 8
+
+# Threshold meanings:
+# clip_threshold_investigate: Clip mismatch percentage above which status becomes 'Investigate'.
+#   - 'Investigate' refers to image pairs with noticeable but not severe differences (ideally between 3–8%).
+# clip_threshold_nok: Clip mismatch percentage above which status becomes 'NOK'.
+#   - 'NOK' refers to image pairs with significant mismatches (ideally greater than 8%).
+# segment_threshold_investigate: Segment-wise max mismatch percentage above which status becomes 'Investigate'.
+#   - The images are divided into smaller segments for detailed (tell-tale level) comparison.
+#     This threshold applies to the highest mismatch observed among those segments (ideally between 3–8%).
+# segment_threshold_nok: Segment-wise max mismatch percentage above which status becomes 'NOK'.
+#   - Indicates major differences at the segment level (ideally greater than 8%).
+# Ideal threshold values: Investigate 3%, NOK 8–10%.

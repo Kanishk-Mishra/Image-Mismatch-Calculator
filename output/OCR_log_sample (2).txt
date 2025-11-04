@@ -1,0 +1,7 @@
+toCheck img name: toCheck_100049_00476s_BUZ_33_OFF.png, ref img text: 33, toCheck img text: 16, is same text: False
+toCheck img name: toCheck_100049_00550s_BUZ_34_OFF.png, ref img text: 34, toCheck img text: 16, is same text: False
+toCheck img name: toCheck_100049_00327s_BUZ_14_OFF.png, ref img text: 14, toCheck img text: 16, is same text: False
+toCheck img name: toCheck_100050_00812s_BUZ_09_OFF.png, ref img text: 9, toCheck img text: 16, is same text: False
+toCheck img name: toCheck_100050_00886s_BUZ_10_OFF.png, ref img text: 10, toCheck img text: 16, is same text: False
+toCheck img name: toCheck_100051_00466s_BUZ_04_OFF.png, ref img text: 4, toCheck img text: 16, is same text: False
+toCheck img name: toCheck_100051_00540s_BUZ_06_OFF.png, ref img text: 6, toCheck img text: 16, is same text: False
