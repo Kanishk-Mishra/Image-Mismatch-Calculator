@@ -5,7 +5,7 @@
 In automotive testing, **dashboard UI validation** involves comparing **reference** and **toCheck** images from regression test reports (e.g., `globalTestReport.html`) to detect visual, textual, or scaling mismatches.  
 Manual inspection of these image pairs is **time-consuming** and **error-prone**, especially across variants and languages (like French and English).  
 
-This project automates that process using **AI models** to analyze image mismatches, categorize results, and generate an **annotated, human-readable HTML report**.
+This project automates that process using **AI models** to calculate image mismatch percentages, categorize results, and generate an **annotated, human-readable HTML report**.
 
 ---
 
